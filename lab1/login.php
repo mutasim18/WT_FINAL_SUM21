@@ -42,8 +42,9 @@
             {
                 if($uname == $u && $pass==$p)
                 {
+                    //$_SESSION["loggeduser"] = $uname;
                     setcookie("loggeduser",$uname,time()+120);
-                    header("Location : dashboard.php");
+                    header("Location: dashboard.php");
                 }
             }
             echo "Invalid Username";
@@ -54,7 +55,7 @@
 
 <html>
     <body>
-        <form action="" method="post">
+        <form action="login.php" method="post">
         <fieldset>
         <legend>LogIn Page</legend>
 			<table>
@@ -72,7 +73,7 @@
 				</tr>
 
 				<tr>
-					<td><button><input type="submit" name="submit" value="Login"></button></td>
+					<td><input type="submit" name="submit" value="Login"></td>
 				</tr>
 			</table>
             </fieldset>
