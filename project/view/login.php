@@ -24,13 +24,13 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav mr-auto w-100 justify-content-end">
         <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home</a>
+          <a class="nav-link" href="../project/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../car management system/carlist/carlist.php">Car List</a>
+          <a class="nav-link" href="carlist/carlist.php">Car List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../car management system/brandlist/brandlist.php">Brand List</a>
+          <a class="nav-link" href="brandlist/brandlist.php">Brand List</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="bookingpage.php">Booking page</a>
@@ -54,7 +54,7 @@
         <legend>Login Window</legend>
 			
         <tr>
-        <button><a href="../Final Project/Admin/View/adminlogin.php">Admin Login</a></button>
+        <button><a href="admin/adminlogin.php">Admin Login</a></button>
 		</tr>
         <tr>
         <button><a href="../Final Project/Dealer/View/dealerlogin.php">Dealer Login</a></button>

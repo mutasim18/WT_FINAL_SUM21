@@ -32,19 +32,19 @@ body {
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../Final/carlist/carlist.php">Car List</a>
+          <a class="nav-link" href="../project/view/carlist/carlist.php">Car List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../Final/brandlist/brandlist.php">Brand List</a>
+          <a class="nav-link" href="../project/view/brandlist/brandlist.php">Brand List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="bookingpage.php">Booking page</a>
+          <a class="nav-link" href="../project/view/bookingpage.php">Booking page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact Us</a>
+          <a class="nav-link" href="../project/view/contactus.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="login.php">Log in</a>
+          <a class="nav-link" href="../project/view/login.php">Log in</a>
         </li>
       </ul>
     </div>
@@ -56,7 +56,7 @@ body {
 
 <table>
 
-<img class="mySlides" src="img/banner-image-1.jpg" style="width:100%">
+<img class="mySlides" src="../project/view/img/banner-image-1.jpg" style="width:100%">
 <h1><span style="color:red;" >Car Management System </h1>
 <p>Your Passion Our Duty</p>
 </table>

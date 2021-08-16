@@ -23,10 +23,10 @@
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../car management system/carlist/carlist.php">Car List</a>
+          <a class="nav-link" href="carlist/carlist.php">Car List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../car management system/brandlist/brandlist.php">Brand List</a>
+          <a class="nav-link" href="brandlist/brandlist.php">Brand List</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="bookingpage.php">Booking page</a>

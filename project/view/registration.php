@@ -24,22 +24,22 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav mr-auto w-100 justify-content-end">
         <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home</a>
+          <a class="nav-link" href="../project/index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../car management system/carlist/carlist.php">Car List</a>
+          <a class="nav-link" href="../project/view/carlist/carlist.php">Car List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../car management system/brandlist/brandlist.php">Brand List</a>
+          <a class="nav-link" href="../project/view/brandlist/brandlist.php">Brand List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="bookingpage.php">Booking page</a>
+          <a class="nav-link" href="../project/view/bookingpage.php">Booking page</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contactus.php">Contact Us</a>
+          <a class="nav-link" href="../project/view/contactus.php">Contact Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="login.php">Log in</a>
+          <a class="nav-link" href="../project/view/login.php">Log in</a>
         </li>
       </ul>
     </div>
@@ -54,7 +54,7 @@
         <legend>Register Yourself</legend>
 			
         <tr>
-        <button><a href="admin_signup.php">Admin Signup</a></button>
+        <button><a href="../project/view/admin/admin_signup.php">Admin Signup</a></button>
 		</tr>
         <tr>
         <button><a href="dealersignup.php">Dealer Signup</a></button>
