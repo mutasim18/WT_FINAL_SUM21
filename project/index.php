@@ -53,6 +53,10 @@ body {
 
 <!--- Navabr End--->
 
+        <script>
+            alert("Thankyou for visiting!");
+        </script>
+
 
 <table>
 

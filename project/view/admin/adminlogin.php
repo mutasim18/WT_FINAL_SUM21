@@ -25,7 +25,7 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
       <ul class="navbar-nav mr-auto w-100 justify-content-end">
         <li class="nav-item active">
-          <a class="nav-link" href="index.php">Home</a>
+          <a class="nav-link" href="../index.php">Home</a>
         </li>
           <a class="nav-link" href="admin_signup.php">Registration</a>
         </li>
@@ -38,8 +38,7 @@
 <!-- Login System-->
 <?php
     
-    include '../Controller/adminController.php';
-
+      include '../project/controller/admincontroller.php';
      
     ?>
 
@@ -48,7 +47,8 @@
 
 
 
-<form method="POST" action="../Controller/adminController.php">
+
+<form method="POST" action="admin_dashboard.php">
         <fieldset>
         <legend style="color:cyan;"> <h1>Login</h1></legend>
 			<table>
@@ -61,14 +61,16 @@
 
 				<tr>
 					<td align="right">Password</td>
-					<td>:<input name="password"  type="password" placeholder="Password""><br>
+					<td>:<input name="password"  type="password" placeholder="Password"><br>
 				</tr>
 
 			
 
 				<tr>
-					<td><input type="submit" name="submit" value="Login"></td>
-          <a href="admin_dashboard.php">Login</a>
+					<td><button><input onmouseover="showDetails()" onmouseout="hideDetails()" type="submit" name="submit" value="Login"><button</td>
+          <p id="info" style="display:none">You sure?</p>
+          <script src="../myjs.js"></script>
+
 				</tr>
 			</table>
 			<label>Forget Password? <a href="forgetpassword.php">Password Reset</a> </label>

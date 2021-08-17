@@ -57,7 +57,7 @@
         <button><a href="../project/view/admin/admin_signup.php">Admin Signup</a></button>
 		</tr>
         <tr>
-        <button><a href="dealersignup.php">Dealer Signup</a></button>
+        <button><a href="../project/view/dealer/dealersignup.php">Dealer Signup</a></button>
 		</tr>
         <tr>
         <button><a href="providersignup.php">Provider Signup</a></button>

@@ -65,6 +65,9 @@
 <td>
 <b>Feed Back :</b> <textarea name="feedback" id="" cols="50" rows="5"></textarea>
 </td>
+<td>
+<input type="submit" name="submit">
+<td>
 
 
 </td>
